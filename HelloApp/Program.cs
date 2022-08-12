@@ -9,7 +9,8 @@ namespace HelloApp
         {
             Console.WriteLine("Hello World!");
             Calc calc = new Calc();
-            Console.WriteLine(calc.Add(10, 50));
+            Console.WriteLine($"Addition is : {calc.Add(10, 50)}");
+            Console.WriteLine($"Multiplication is : {calc.Multiply(10, 50)}");
         }
     }
 }
